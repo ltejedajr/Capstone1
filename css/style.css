@@ -20,8 +20,16 @@ p {
     text-indent: 60px;
 }
 
-
-link {
+figure {
+    border: 1px #080000 solid;
+    padding: 4px;
+    margin: auto;
+  }
+  
+  figcaption {
     font-family: sans-serif;
-
-}
+    color: rgb(0, 0, 0);
+    font-style: italic;
+    padding: 2px;
+    text-align: center;
+  }
