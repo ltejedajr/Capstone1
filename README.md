@@ -13,22 +13,21 @@ I chose to embark on an inspiring journey to gain coding knowledge and leverage 
 - [Features](#features)
 - [Demo](#demo)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
-Below
-![Alt text](<../../../../Desktop/Screenshot 2023-10-16 at 12.15.47 AM.png>)
+- Interactive navigational bar
+- Responsive links
+- User friendly compact design
 
 ## Demo
-
-[Include a link to a live demo of your website or screenshots to give users an idea of what it looks like.]
+![Home](images/index.png)
+![Login](images/userlogin.png)
+![Sign Up!](images/userreg.png)
+![Products](images/products.png)
+![Checkout](images/checkout.png)
 
 ## Installation
-
-[Provide instructions on how to install and set up your website, including any prerequisites.]
-
-```bash
-npm install
+VSCode
+Terminal
+Github
