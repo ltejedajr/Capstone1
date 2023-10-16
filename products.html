@@ -3,17 +3,35 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Artisan</title>
+    <title>Oasis Kanvas</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
-  <body>
 
-<header><nav class="navbar navbar-expand-lg bg-body-tertiary">
+<style>
+  .wrap {
+    float: right; 
+    margin: 5px;
+   }
+
+   .navbar-custom {
+
+    background-color: #aa878e;
+  }
+
+  .navbar-custom .navbar-brand,
+        .navbar-custom .navbar-text {
+            color: rgb(0, 0, 0);
+        }
+ </style>
+
+<body>
+
+<header>
+  <nav class="navbar navbar-custom">
     <div class="container">
-      <a class="navbar-brand" href="#">
-        <img src="images/OKlogo.png" alt="Oasis Kanvas Logo" width="75" height="75"/></a>
-      </a>
+      <a class="navbar-brand" href="index.html">
+        <img src="images/Oasis Kanvas.png" alt="Oasis Kanvas Logo" width="400" height="90"/></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -23,105 +41,169 @@
             <a class="nav-link" aria-current="page" href="index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="userlogin.html">User Login</a>
+            <a class="nav-link" href="userlogin.html">Login</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="userregistration.html">User Registration</a>
+            <a class="nav-link" href="userregistration.html">Sign Up!</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="products.html">Products</a>
+            <a class="nav-link active" href="products.html">Gallery & Services</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="checkout.html">Checkout</a>
           </li>
-          
+
             </ul>
           </li>
         </ul>
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
       </div>
     </div>
-  </nav></header>
+  </nav>
+</header>
+
+<hr>
 
 <main class="container">
+
+  
+  <div class="container">
     <div class="row">
-        <div class="col">
-            <h1>Artisan</h1>
 
-            
-            <hr>
-            
+      <div class="col-md-4 mb-3">
+        <div class="card" style="width: 25rem;">
+          <img src="images/daisy-carriel.jpg" class="card-img-top" alt="arriero" width="300" height="322">
+          <div class="card-body">
+            <h5 class="card-title">El Arriero</h5>
+            <p class="card-text" style="text-align: justify;">
+              This captivating digital oil painting portrays a Colombian arriero and his loyal mule transporting valuable 
+              merchant goods, celebrating the timeless tradition of hard work and trade.
+            </p>
+            <a href="checkout.html" class="btn btn-warning">Add to cart</a>
+          </div>
         </div>
-    </div>
+      </div>
 
+      <div class="col-md-4 mb-3">
+        <div class="card" style="width: 25rem;">
+          <img src="images/La Finca.jpg" class="card-img-top" alt="finquita" width="300" height="322">
+          <div class="card-body">
+            <h5 class="card-title">La Finquita</h5>
+            <p class="card-text" style="text-align: justify;">
+              Capture the tranquil beauty of Colombia's countryside with an enchanting digital color pencil illustration, "La Finquita".
+              Enjoy any living quarters with this picturesque Colombian finquita.
+            </p>
+            <a href="checkout.html" class="btn btn-warning">Add to cart</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-3">
+        <div class="card" style="width: 25rem;">
+          <img src="images/carriel.jpg" class="card-img-top" alt="carriel" width="300" height="322">
+          <div class="card-body">
+            <h5 class="card-title">El Carriel</h5>
+            <p class="card-text" style="text-align: justify;">
+              Celebrate the soul of Colombia with another digital piece showcasing a traditional carrier used by farmers
+              and townsfolk to transport their goods, reflecting the enduring spirit of rural life and community resilience.
+            </p>
+            <a href="checkout.html" class="btn btn-warning">Add to cart</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-3">
+        <div class="card" style="width: 25rem;">
+          <img src="images/Astronaut.jpg" class="card-img-top" alt="cosmic ascent">
+          <div class="card-body">
+            <h5 class="card-title">Cosmic Ascent</h5>
+            <p class="card-text" style="text-align: justify;">
+              Introducing the "Cosmic Ascent" sticker, where an astronaut soars fearlessly into the infinite 
+              expanse of space, symbolizing the boundless human spirit and our unquenchable thirst for exploration.
+            </p>
+            <a href="checkout.html" class="btn btn-warning">Add to cart</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-md-4 mb-3">
+        <div class="card" style="width: 25rem;">
+          <img src="images/QUEENSNYC.jpg" class="card-img-top" alt="et chill">
+          <div class="card-body">
+            <h5 class="card-title">Extraterrestrial Chill</h5>
+            <p class="card-text" style="text-align: justify;">
+              Unveil this whimsical, green-skinned alien lounging at Queens Meadow Park, 
+              enjoying a relaxed smoke under the Earth's vibrant skies, a delightful blend of otherworldly whimsy and earthly serenity.
+            </p>
+            <a href="checkout.html" class="btn btn-warning">Add to cart</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-md-4 mb-3">
+        <div class="card" style="width: 25rem;">
+          <img src="images/BKNYC.jpg" class="card-img-top" alt="bk invasion">
+          <div class="card-body">
+            <h5 class="card-title">Brooklyn Invasion</h5>
+            <p class="card-text" style="text-align: justify;">
+              When a menacing Demogorgon alien from the Upside Down crashes into Junior's in a 
+              heart-pounding search for the most delectable eats amidst the chaos.
+            </p>
+            <a href="checkout.html" class="btn btn-warning">Add to cart</a>
+          </div>
+        </div>
+      </div>
+      
+      
+      
+    
+    </div>
+    
+    
+    
+    
+    <hr>
+    
+    <!--  <div class="row">
+      <div class="col">
+        <h1></h1>
+        
+        <hr>
+        
+      </div>
+    </div>
+    
     <div class="row">
-        <div class="col">
-            <div id="hero">
-                <h2>Authentic Bosnian Artisan Furniture!</h2>
-                <p> In the heart of Southeastern Europe lies Bosnia and Herzegovina, a land rich in culture and history. 
-                    One of its most cherished traditions is the art of crafting authentic wooden furniture. This age-old 
-                    craft reflects the deep-rooted connection between the people of Bosnia and the natural beauty of their 
-                    surroundings. For centuries, Bosnian artisans have honed their skills, creating functional and artistic 
-                    wooden furniture that tells a story of craftsmanship and tradition. Using locally sourced timber, these 
-                    artisans transform raw wood into exquisite pieces of art, each bearing the mark of their unique style 
-                    and dedication to their craft.</p>
-            </div>
+      <div class="col">
+        <div id="hero">
+          <div class="wrap">
+            <h2></h2>
+            
+          </div> 
+          
         </div>
+      -->
+        
+      </main>
+        
+        <footer>
+          
+          <div class="social">
+            <div style="text-align: center;">
+              <div style="padding-right: 5px;">
+                <a href="https://www.instagram.com/oasiskanvas/"><img src="images/iconmonstr-instagram-11-32.png"/></a>
+                <a href="https://api.whatsapp.com/send?phone=+13479758201&text=“Where+Creativity+Meets+Kanvas”+-+Let’s+create+together%21+"><img src="images/iconmonstr-whatsapp-1-32.png"/></a>
+                <a href="https://github.com/ltejedajr/Capstone1"><img src="images/iconmonstr-github-1-32.png"/></a>
+      </div>
     </div>
+  </div>
 
+ <br>
 
-
-
-
-
-
-
-
-
-</main>
-
-
-
-
-
-
-
-
-
-
-
-
-<footer>
-
-
-
-
+  <div style="text-align: center;font-style: italic;">
+    Oasis Kanvas © 2023
+  </div>
 
 </footer>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
